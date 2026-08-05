@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:navy;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+}
+
+.answer{
+    background:lightgray;
+    color:black;
+}
+
+.answer:hover{
+    background:silver;
+}
+
+.correct{
+    background:green;
+    color:white;
+}
+
+.wrong{
+    background:red;
+    color:white;
+}
+
+#nextBtn{
+    display:none;
+    background:blue;
+    color:white;
+}
